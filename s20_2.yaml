@@ -1,0 +1,4 @@
+substitutions:
+  devicename: s20_2
+
+<<: !include .s20.yaml
