@@ -5,10 +5,10 @@ esphome:
 
 wifi:
   networks:
-  - ssid: !secret wifi_ssid_1
-    password: !secret wifi_password_1
-  - ssid: !secret wifi_ssid_2
-    password: !secret wifi_password_2
+    - ssid: !secret wifi_ssid_1
+      password: !secret wifi_password_1
+    - ssid: !secret wifi_ssid_2
+      password: !secret wifi_password_2
   domain: !secret wifi_domain
   ap:
     ssid: ${devicename}_fallback_hotspot

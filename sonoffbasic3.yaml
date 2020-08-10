@@ -1,0 +1,4 @@
+substitutions:
+  devicename: sonoffbasic3
+
+<<: !include .sonoffbasic.yaml

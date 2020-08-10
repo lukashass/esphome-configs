@@ -1,4 +1,4 @@
 substitutions:
-  devicename: s20_1
+  devicename: s201
 
 <<: !include .s20.yaml
