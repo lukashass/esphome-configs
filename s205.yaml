@@ -1,0 +1,4 @@
+substitutions:
+  devicename: s205
+
+<<: !include .s20.yaml
