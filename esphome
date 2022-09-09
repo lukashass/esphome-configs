@@ -2,7 +2,7 @@
 echo "Current working directory: '$(pwd)'"
 if [ -c /dev/ttyUSB0 ]; then
   echo "attaching USB"
-  docker run --rm --net=host --device=/dev/ttyUSB0 -v "$(pwd)":/config -it esphome/esphome:2022.1.1 "$@"
+  docker run --rm --net=host --device=/dev/ttyUSB0 -v "$(pwd)":/config -it esphome/esphome:2022.8.3 "$@"
 else
-  docker run --rm --net=host -v "$(pwd)":/config -it esphome/esphome:2022.1.1 "$@"
+  docker run --rm --net=host -v "$(pwd)":/config -it esphome/esphome:2022.8.3 "$@"
 fi
